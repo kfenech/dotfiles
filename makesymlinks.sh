@@ -20,7 +20,7 @@ cd $dir
 echo "Done"
 
 #move any existing dotfiles in homedir to dotfiles_old
-for file in $filesll do
+for file in $files; do
 	echo "Moving existing dotfiles from ~ to $olddir"
 	mv ~/.$file ~/dotfiles_old
 	echo "Creating symlink to $file in home dir"
