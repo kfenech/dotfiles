@@ -1,0 +1,5 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='scp://nipg1//home/fenech/active/prj/'
+let g:netrw_dirhist_2='scp://nipg1//home/fenech/active/'
+let g:netrw_dirhist_1='scp://nipg1//home/fenech/'
